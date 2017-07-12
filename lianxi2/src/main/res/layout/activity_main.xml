@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lianxi2.MainActivity">
+
+
+    <com.example.lianxi2.MarqureeTextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="TextViewTex全额翁翁翁翁tViewTextViewTextViewTextViewTextViewTextViewTextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="23sp" />
+
+    <com.example.lianxi2.MarqureeTextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="大街附近十多年富家大室你傻啊烦恼萨姆tViewTextViewTextV"
+        android:textColor="@color/colorAccent"
+        android:textSize="23sp" />
+
+
+</LinearLayout>
